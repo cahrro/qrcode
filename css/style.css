@@ -15,50 +15,48 @@
 body{
     background-color: var(--fundo);
     height: 100vh;
-    width: 100%;
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
+    font-family: var(--fonte);
     
 }
 
 .container{
-    max-width: 375px;
-    padding: 10px;
+    /* max-width: 375px; */
+    max-width: 300px;
+    /*  padding: 10px; */
+    padding: 20px;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 13px 19px 16px -4px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
+   /*  display: flex; */
+   /*  flex-direction: column; */
     background: var(--fundocaixa);
     text-align: center;
 }
 
-#image img{
-    margin-top: 10px;
+img{
+    /* margin-top: 10px;
     text-align: center;
     width: 90%;
-    height: 40%;
+    height: 40%; */
+    width: 100%;
     border-radius: 10px;
 }
 
-#legenda{
-    margin: 20px;
-    padding: 5px;
-    font-family: var(--fonte);
-}
-
-#legenda h2{
+h2{
     color: var(--titulo);
-    font: 700;
-    margin-bottom: 20px;
+    margin: 20px 10px;
+    font: 700 20px;
+    /* margin-bottom: 20px;
     text-align: left;
-
+    */
 }
 
-#legenda p{
+p{
     text-align: left;
     color: var(--subt);
+    margin-bottom: 20px;
     font: 400 15px;
 }
